@@ -1,6 +1,6 @@
 
 import React, { useState } from "react";
-import "./Grid.css"; // Import CSS file
+import "./Grid.css"; 
 
 type GridProps = {
   rows: number;
