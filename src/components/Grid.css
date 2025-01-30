@@ -1,0 +1,57 @@
+/* Center align game */
+.game-container {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  margin-top: 20px;
+}
+
+h1 {
+  color: #2c3e50;
+}
+
+.roll-button {
+  padding: 10px 20px;
+  font-size: 18px;
+  margin: 15px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.roll-button:disabled {
+  background-color: gray;
+  cursor: not-allowed;
+}
+
+/* Grid layout */
+.grid {
+  display: inline-block;
+  border: 2px solid black;
+  margin-top: 20px;
+}
+
+.grid-row {
+  display: flex;
+}
+
+.grid-cell {
+  border: 1px solid black;
+  padding: 15px;
+  min-width: 50px;
+  min-height: 50px;
+  text-align: center;
+  font-weight: bold;
+  position: relative;
+  background-color: white;
+}
+
+/* Player colors */
+.player1 {
+  background-color: yellow !important;
+}
+
+.player2 {
+  background-color: lightblue !important;
+}
